@@ -139,13 +139,11 @@ body {
     align-items: center;
     font-size: 1rem;
 }
-
 #task-list li span{
     flex: 1;
     margin-left: 10px;
     word-wrap: break-word;
 }
-
 .task-buttons {
     display: flex;
     gap: 10px;
