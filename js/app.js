@@ -4,6 +4,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const taskList = document.getElementById('task-list');
 
     const addTask = (event) => {
+        // hotfix - Al momento de agregar una tarea esta no se mostraba y dejaba el registro vacio por defecto.
+        event.preventDefault();
         const taskText = taskInput.value.trim();
         if(!taskText){
             return;
